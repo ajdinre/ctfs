@@ -1,3 +1,5 @@
+# HTB Simple Encryptor
+
 I got 2 files, one is for encryption and the second one is the encrypted flag:
 ```
 $ file rev_simpleencryptor/*
