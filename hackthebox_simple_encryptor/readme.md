@@ -5,7 +5,7 @@ rev_simpleencryptor/encrypt:  ELF 64-bit LSB pie executable, x86-64, version 1 (
 rev_simpleencryptor/flag.enc: data
 ```
 
-
+ghidra gave me this:
 ```
 undefined8 main(void)
 
@@ -54,8 +54,7 @@ undefined8 main(void)
 }
 ```
 
-after cleaning up
-
+after cleaning up:
 ```
 
 undefined8 main(void)
@@ -119,3 +118,5 @@ undefined8 main(void)
 }
 
 ```
+
+I wrote script to reverse the algo in decrypt.py  
